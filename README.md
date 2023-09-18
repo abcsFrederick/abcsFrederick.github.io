@@ -52,6 +52,7 @@ The tables below provide links and brief descriptions of ABCS GitHub repositorie
 
 
 ## 🎓 Training 
+
 | Repository Name | Description |
 | --- | --- |
 | [Linear Regression](https://github.com/abcsFrederick/LinearRegression)<sup>#</sup> | Welcome to the repository for the linear regression materials for Statistics for Lunch! |
