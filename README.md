@@ -7,7 +7,7 @@
 The [Advanced Biomedical Computational Science (ABCS)](https://frederick.cancer.gov/research/bioinformatics-and-computational-science/advanced-biomedical-computational-science) group is a part of the Bioinformatics and Computational Science (BACS) directorate at [Frederick National Laboratory for Cancer Research](https://frederick.cancer.gov/). ABCS provides bioinformatics, mathematical simulation and modeling, image analysis and visualization, nanoinformatics, proteomic analysis, data integration support for scientific projects through database maintenance and development, and scientific web application development support to the [National Cancer Institute](https://www.cancer.gov) (NCI) and [National Institutes of Health](https://www.nih.gov) (NIH) scientists and staff.
 
 The tables below provide links and brief descriptions of ABCS GitHub repositories. Information on whether the repository handles dependencies, is modularized and/or containerized is also provided.
-Repositories are categorized under ["Statistics"](#statistics), ["Imaging and Visualization"](#imaging-and-visualization), ["Next-generation sequencing (NGS)"](#next-generation-sequencing-(NGS)), "Training"(#training), or "Other"(#other) topics.
+Repositories are categorized under ["Statistics"](#statistics), ["Imaging and Visualization"](#imaging-and-visualization), ["Next-generation sequencing (NGS)"](#next-generation-sequencing-(NGS)), ["Training"](#training), or ["Other"](#other) topics.
 
 
 ## Statistics
