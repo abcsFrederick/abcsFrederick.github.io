@@ -1,6 +1,6 @@
 # Advanced Biomedical Computational Science (ABCS) GitHub Repository
 
-![ABCS Graphic](ABCS logo2022_350ppi.png)
+[ABCS Graphic](ABCS logo2022_350ppi.png)
 
 ## About Us
 
