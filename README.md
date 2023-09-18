@@ -57,7 +57,7 @@ The tables below provide links and brief descriptions of ABCS GitHub repositorie
 | [Linear Regression](https://github.com/abcsFrederick/LinearRegression)<sup>#</sup> | Welcome to the repository for the linear regression materials for Statistics for Lunch! |
 | [ML-Caution](https://github.com/abcsFrederick/ML-Caution)<sup>#</sup> | P-hacking and abuse of machine learning: A cautionary tale. Presented at GitHub Universe - Education Day on Nov 15, 2019. |
 
-<sup>#</sup> Repositories are do not handle dependencies and are not modularized.
+<sup>#</sup> Repositories do not handle dependencies and are not modularized.
 
 
 ## 📚 Other 
