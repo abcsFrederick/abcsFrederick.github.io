@@ -4,10 +4,10 @@
 
 The [Advanced Biomedical Computational Science (ABCS)](https://frederick.cancer.gov/research/bioinformatics-and-computational-science/advanced-biomedical-computational-science) group is a part of the Bioinformatics and Computational Science (BACS) directorate at [Frederick National Laboratory for Cancer Research](https://frederick.cancer.gov/). ABCS provides bioinformatics, mathematical simulation and modeling, image analysis and visualization, nanoinformatics, proteomic analysis, data integration support for scientific projects through database maintenance and development, and scientific web application development support to the [National Cancer Institute](https://www.cancer.gov) (NCI) and [National Institutes of Health](https://www.nih.gov) (NIH) scientists and staff.
 
-The tables below provide links and brief descriptions of ABCS GitHub repositories. Unless otherwise noted, all repositories handle dependencies and are modularized. 📦 indicates the respective repository is containerized. Repositories are categorized under ["Statistics"](#statistics) 📊, ["Imaging and Visualization"](#imaging-and-visualization) 🔬, ["Next-Generation Sequencing"](#next-generation-sequencing) 🧬, ["Training"](#training) 🎓, or ["Other"](#other) 📚 topics.
+The tables below provide links and brief descriptions of ABCS GitHub repositories. Unless otherwise noted, all repositories handle dependencies and are modularized. 📦 indicates the respective repository is containerized. Repositories are categorized under 📊 ["Statistics"](#statistics), 🔬 ["Imaging and Visualization"](#imaging-and-visualization), 🧬 ["Next-Generation Sequencing"](#next-generation-sequencing), 🎓 ["Training"](#training), or 📚 ["Other"](#other) topics.
 
 
-## Statistics 📊
+## 📊 Statistics 
 
 | Repository Name | Description |
 | --- | --- |
@@ -15,7 +15,7 @@ The tables below provide links and brief descriptions of ABCS GitHub repositorie
 
 
 
-## Imaging and Visualization 🔬
+## 🔬 Imaging and Visualization 
 
 | Repository Name | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ The tables below provide links and brief descriptions of ABCS GitHub repositorie
 
 
 
-## Next-Generation Sequencing 🧬
+## 🧬 Next-Generation Sequencing 
 
 | Repository Name | Description |
 | --- | --- |
@@ -51,21 +51,21 @@ The tables below provide links and brief descriptions of ABCS GitHub repositorie
 <sup>2</sup> Since this is documentation only, dependencies handled and modularization are not applicable.
 
 
-## Training 🎓
+## 🎓 Training 
 | Repository Name | Description |
 | --- | --- |
-| [Linear Regression](https://github.com/abcsFrederick/LinearRegression)* | Welcome to the repository for the linear regression materials for Statistics for Lunch! |
-| [ML-Caution](https://github.com/abcsFrederick/ML-Caution)* | P-hacking and abuse of machine learning: A cautionary tale. Presented at GitHub Universe - Education Day on Nov 15, 2019. |
+| [Linear Regression](https://github.com/abcsFrederick/LinearRegression)<sup>#</sup> | Welcome to the repository for the linear regression materials for Statistics for Lunch! |
+| [ML-Caution](https://github.com/abcsFrederick/ML-Caution)<sup>#</sup> | P-hacking and abuse of machine learning: A cautionary tale. Presented at GitHub Universe - Education Day on Nov 15, 2019. |
 
-* Repositories are do not handle dependencies and are not modularized.
+<sup>#</sup> Repositories are do not handle dependencies and are not modularized.
 
 
-## Other 📚
+## 📚 Other 
 
 | Repository Name | Description |
 | --- | --- |
-| [Non-B GFA](https://github.com/abcsFrederick/non-B_gfa)* | gfa programs for Non-B site at NCI/FNLCR. gfa is a Suite of programs developed at NCI-Frederick/Frederick National Lab to find sequences associated with non-B DNA forming motifs. |
+| [Non-B GFA](https://github.com/abcsFrederick/non-B_gfa)<sup>#</sup> | gfa programs for Non-B site at NCI/FNLCR. gfa is a Suite of programs developed at NCI-Frederick/Frederick National Lab to find sequences associated with non-B DNA forming motifs. |
 | [spacesavers](https://github.com/CCBR/spacesavers) | Disk space: the final frontier. This is the home of the cli, Spacesavers. Its long-term mission: to explore shared file systems, to seek duplicated files, and to boldly report disk space usage like no bot before! |
 
-* Repository does not handle dependencies and is not modularized.
+<sup>#</sup> Repository does not handle dependencies and is not modularized.
 
