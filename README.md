@@ -28,7 +28,7 @@ Repositories are categorized under ["Statistics"](#statistics), ["Imaging and Vi
 
 
 
-## Next-generation sequencing (NGS)
+## Next-Generation Sequencing
 
 | Repository Name | Description | Dependencies Handled | Modularized |
 | --- | --- | --- | --- |
