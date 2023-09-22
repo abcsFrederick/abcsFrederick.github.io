@@ -10,6 +10,7 @@ Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI 
 
 Some text 📦 <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="12" height="12">
 
+Some more text <img src="./assets/images/test_container_image2.svg" width="12" height="12">
 
 ## 📊 Statistics 
 
