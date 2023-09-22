@@ -4,9 +4,11 @@
 
 The [Advanced Biomedical Computational Science (ABCS)](https://github.com/abcsFrederick){:target="_blank"} group is a part of the Bioinformatics and Computational Science (BACS) directorate at [Frederick National Laboratory for Cancer Research](https://frederick.cancer.gov/){:target="_blank"}. ABCS provides bioinformatics, mathematical simulation and modeling, image analysis and visualization, nanoinformatics, proteomic analysis, data integration support for scientific projects through database maintenance and development, and scientific web application development support to the [National Cancer Institute](https://www.cancer.gov){:target="_blank"} (NCI) and [National Institutes of Health](https://www.nih.gov){:target="_blank"} (NIH) scientists and staff.
 
-The tables below provide links and brief descriptions of ABCS GitHub repositories. 📦 indicates the respective repository is containerized. Repositories are categorized under 📊 ["Statistics"](#-statistics), 🔬 ["Imaging AI"](#-imaging-ai), 🧬 ["Next-Generation Sequencing"](#-next-generation-sequencing), 🎓 ["Training"](#-training), or 📚 ["Other"](#-other) topics.
+The tables below provide links and brief descriptions of ABCS GitHub repositories. <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> indicates the respective repository is containerized. Repositories are categorized under 📊 ["Statistics"](#-statistics), 🔬 ["Imaging AI"](#-imaging-ai), 🧬 ["Next-Generation Sequencing"](#-next-generation-sequencing), 🎓 ["Training"](#-training), or 📚 ["Other"](#-other) topics.
 
 Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI BP"](#-imaging-ai-bp), 🧬 ["Next-Generation Sequencing BP"](#-next-generation-sequencing-bp), 🎓 ["Training BP"](#-training-BP), or 📚 ["Other BP"](#-other-bp), 
+
+Some text 📦 <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="12" height="12">
 
 
 ## 📊 Statistics 
@@ -44,14 +46,14 @@ Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI 
 | [MicroArrayPipeline](https://github.com/CCBR/MicroArrayPipeline){:target="_blank"} | MicroArray Analysis Pipeline, also known as MAAPster, is a comprehensive Shiny application and R package that performs transcriptome analysis of human or mouse Affymetrix gene expression data. |
 | [Pipeliner](https://github.com/CCBR/Pipeliner){:target="_blank"} | An open-source and scalable solution to NGS analysis powered by the NIH's Biowulf cluster. Pipeliner provides access to a set of best-practices NGS pipelines developed, tested, and benchmarked by experts at CCBR and NCBR. |
 | [Pipeliner documentation](https://github.com/CCBR/pipeliner-docs){:target="_blank"} | This repository is the main source of documentation for users and developers working with or contributing to Pipeliner. |
-| [RENEE](https://github.com/CCBR/RENEE){:target="_blank"} 📦 | An open-source, reproducible, and scalable solution for analyzing RNA-seq data. The pipeline consists of a series of data processing and quality-control steps orchestrated by Snakemake, a flexible and scalable workflow management system, to submit jobs to a cluster or cloud provider. |
-| [TRANQUIL](https://github.com/CCBR/TRANQUIL){:target="_blank"} 📦 | TRANQUIL or "TRna AbundaNce QUantification pIpeLine" is a Snakemake pipeline which quantifies tRNA using the mim-tRNAseq tool. |
-| [wgs-seek](https://github.com/CCBR/wgs-seek){:target="_blank"} 📦 | Whole Genome-Sequencing Pipeline. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants. |
-| [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} 📦 | eXome Analysis and Variant explorER. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants. |
-| [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"} | Master Of Pores V2 (MOP2) pipeline on the FRCE server. MOP2 estimates the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish. [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"} |
-| [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"} | This pipeline integrates RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance. |
-| [ISOMIR](){:target="_blank"} | This pipeline performs adapter removal, small RNA profiling, and QuagmiR analysis. |
-| [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"} | This pipeline performs trimming of Ribo-seq reads, filters out reads mapping to non-coding RNA and remap to the transcriptome, and aggregates relative positions of read starts (split in 5' UTR, CDS, and 3' UTR). |
+| [RENEE](https://github.com/CCBR/RENEE){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> | An open-source, reproducible, and scalable solution for analyzing RNA-seq data. The pipeline consists of a series of data processing and quality-control steps orchestrated by Snakemake, a flexible and scalable workflow management system, to submit jobs to a cluster or cloud provider. |
+| [TRANQUIL](https://github.com/CCBR/TRANQUIL){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> | TRANQUIL or "TRna AbundaNce QUantification pIpeLine" is a Snakemake pipeline which quantifies tRNA using the mim-tRNAseq tool. |
+| [wgs-seek](https://github.com/CCBR/wgs-seek){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> | Whole Genome-Sequencing Pipeline. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants. |
+| [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15"> | eXome Analysis and Variant explorER. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants. |
+| [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"} | Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"} |
+| [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"} | Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance |
+| [ISOMIR](){:target="_blank"} | Detection and annotation of microRNA isoforms (isomiRs) |
+| [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"} | Detection of Ribosomal footprints from NGS data. |
 
 
 
@@ -120,22 +122,22 @@ Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI 
     - An open-source and scalable solution to NGS analysis powered by the NIH's Biowulf cluster. Pipeliner provides access to a set of best-practices NGS pipelines developed, tested, and benchmarked by experts at CCBR and NCBR.
 * [Pipeliner documentation](https://github.com/CCBR/pipeliner-docs){:target="_blank"}
     - This repository is the main source of documentation for users and developers working with or contributing to Pipeliner.
-* [RENEE](https://github.com/CCBR/RENEE){:target="_blank"} 📦
+* [RENEE](https://github.com/CCBR/RENEE){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15">
     - An open-source, reproducible, and scalable solution for analyzing RNA-seq data. The pipeline consists of a series of data processing and quality-control steps orchestrated by Snakemake, a flexible and scalable workflow management system, to submit jobs to a cluster or cloud provider.
-* [TRANQUIL](https://github.com/CCBR/TRANQUIL){:target="_blank"} 📦
+* [TRANQUIL](https://github.com/CCBR/TRANQUIL){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15">
     - TRANQUIL or "TRna AbundaNce QUantification pIpeLine" is a Snakemake pipeline which quantifies tRNA using the mim-tRNAseq tool.
-* [wgs-seek](https://github.com/CCBR/wgs-seek){:target="_blank"} 📦
+* [wgs-seek](https://github.com/CCBR/wgs-seek){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15">
     - Whole Genome-Sequencing Pipeline. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants.
-* [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} 📦
+* [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} <img src="https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/blob/main/assets/images/test_container_image2.svg" width="15" height="15">
     - eXome Analysis and Variant explorER. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants.
 * [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"}
-    - Master Of Pores V2 (MOP2) pipeline on the FRCE server. MOP2 estimates the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish. [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"}
+    - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"}
 * [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"}
-    - This pipeline integrates RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
+    - Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
 * [ISOMIR](){:target="_blank"}
-    - This pipeline performs adapter removal, small RNA profiling, and QuagmiR analysis.
+    - Detection and annotation of microRNA isoforms (isomiRs).
 * [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"}
-    - This pipeline performs trimming of Ribo-seq reads, filters out reads mapping to non-coding RNA and remap to the transcriptome, and aggregates relative positions of read starts (split in 5' UTR, CDS, and 3' UTR).
+    - Detection of Ribosomal footprints from NGS data.
 
 
 
@@ -154,5 +156,4 @@ Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI 
     - gfa programs for Non-B site at NCI/FNLCR. gfa is a Suite of programs developed at NCI-Frederick/Frederick National Lab to find sequences associated with non-B DNA forming motifs.
 * [spacesavers](https://github.com/CCBR/spacesavers){:target="_blank"}
     - This is the home of the cli, Spacesavers. Its long-term mission: to explore shared file systems, seek duplicated files, and report disk space usage.
-
 
