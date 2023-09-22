@@ -17,6 +17,7 @@ copyright: Copyright &copy; 2023 ABCS
 # Plugins
 plugins:
   - search
+  - jekyll-spaceship
   - git-revision-date
   - minify:
       minify_html: true
