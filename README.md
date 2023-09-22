@@ -48,10 +48,10 @@ Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI 
 | [TRANQUIL](https://github.com/CCBR/TRANQUIL){:target="_blank"} 📦 | TRANQUIL or "TRna AbundaNce QUantification pIpeLine" is a Snakemake pipeline which quantifies tRNA using the mim-tRNAseq tool. |
 | [wgs-seek](https://github.com/CCBR/wgs-seek){:target="_blank"} 📦 | Whole Genome-Sequencing Pipeline. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants. |
 | [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} 📦 | eXome Analysis and Variant explorER. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants. |
-| [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"} | Master Of Pores V2 (MOP2) pipeline on the FRCE server. MOP2 estimates the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish. [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"} |
-| [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"} | This pipeline integrates RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance. |
-| [ISOMIR](){:target="_blank"} | This pipeline performs adapter removal, small RNA profiling, and QuagmiR analysis. |
-| [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"} | This pipeline performs trimming of Ribo-seq reads, filters out reads mapping to non-coding RNA and remap to the transcriptome, and aggregates relative positions of read starts (split in 5' UTR, CDS, and 3' UTR). |
+| [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"} | Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"} |
+| [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"} | Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance |
+| [ISOMIR](){:target="_blank"} | Detection and annotation of microRNA isoforms (isomiRs) |
+| [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"} | Detection of Ribosomal footprints from NGS data. |
 
 
 
@@ -120,22 +120,31 @@ Bullet point format: 📊 ["Statistics BP"](#-statistics-bp), 🔬 ["Imaging AI 
     - An open-source and scalable solution to NGS analysis powered by the NIH's Biowulf cluster. Pipeliner provides access to a set of best-practices NGS pipelines developed, tested, and benchmarked by experts at CCBR and NCBR.
 * [Pipeliner documentation](https://github.com/CCBR/pipeliner-docs){:target="_blank"}
     - This repository is the main source of documentation for users and developers working with or contributing to Pipeliner.
+
+<style>
+.emoji-small-size img {font-size: 0.5rem;}
+</style>
+
+{: .emoji-small-size}
 * [RENEE](https://github.com/CCBR/RENEE){:target="_blank"} 📦
     - An open-source, reproducible, and scalable solution for analyzing RNA-seq data. The pipeline consists of a series of data processing and quality-control steps orchestrated by Snakemake, a flexible and scalable workflow management system, to submit jobs to a cluster or cloud provider.
+{: .emoji-small-size}
 * [TRANQUIL](https://github.com/CCBR/TRANQUIL){:target="_blank"} 📦
     - TRANQUIL or "TRna AbundaNce QUantification pIpeLine" is a Snakemake pipeline which quantifies tRNA using the mim-tRNAseq tool.
+{: .emoji-small-size}
 * [wgs-seek](https://github.com/CCBR/wgs-seek){:target="_blank"} 📦
     - Whole Genome-Sequencing Pipeline. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants.
+{: .emoji-small-size}
 * [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} 📦
     - eXome Analysis and Variant explorER. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants.
 * [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"}
-    - Master Of Pores V2 (MOP2) pipeline on the FRCE server. MOP2 estimates the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish. [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"}
+    - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"}
 * [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"}
-    - This pipeline integrates RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
+    - Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
 * [ISOMIR](){:target="_blank"}
-    - This pipeline performs adapter removal, small RNA profiling, and QuagmiR analysis.
+    - Detection and annotation of microRNA isoforms (isomiRs).
 * [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"}
-    - This pipeline performs trimming of Ribo-seq reads, filters out reads mapping to non-coding RNA and remap to the transcriptome, and aggregates relative positions of read starts (split in 5' UTR, CDS, and 3' UTR).
+    - Detection of Ribosomal footprints from NGS data.
 
 
 
