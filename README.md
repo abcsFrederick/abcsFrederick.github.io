@@ -4,7 +4,7 @@
 
 The [Advanced Biomedical Computational Science (ABCS)](https://frederick.cancer.gov/research/bioinformatics-and-computational-science/advanced-biomedical-computational-science){:target="_blank"} group is a part of the Bioinformatics and Computational Science (BACS) directorate at [Frederick National Laboratory for Cancer Research](https://frederick.cancer.gov/){:target="_blank"}. ABCS provides bioinformatics, mathematical simulation and modeling, image analysis and visualization, nanoinformatics, proteomic analysis, data integration support for scientific projects through database maintenance and development, and scientific web application development support to the [National Cancer Institute](https://www.cancer.gov){:target="_blank"} (NCI) and [National Institutes of Health](https://www.nih.gov){:target="_blank"} (NIH) scientists and staff.
 
-The tables below provide links and brief descriptions of [ABCS GitHub repositories](https://github.com/abcsFrederick){:target="_blank"}. <img src="./assets/images/test_container_image2.svg" width="12" height="12"> indicates the respective repository is containerized. Repositories are categorized under 📊 ["Statistics"](#-statistics), :computer: ["Imaging AI"](#-imaging-ai), 🧬 ["Next-Generation Sequencing"](#-next-generation-sequencing), 🎓 ["Training"](#-training), or 📚 ["Other"](#-other) topics.
+The tables below provide links and brief descriptions of [ABCS GitHub repositories](https://github.com/abcsFrederick){:target="_blank"}. <img src="./assets/images/test_container_image2.svg" width="12" height="12"> indicates the respective repository is containerized. Repositories are categorized under 📊 ["Statistics"](#-statistics), 💻 ["Imaging AI"](#-imaging-ai), 🧬 ["Next-Generation Sequencing"](#-next-generation-sequencing), 🎓 ["Training"](#-training), or 📚 ["Other"](#-other) topics.
 
 
 
@@ -15,7 +15,7 @@ The tables below provide links and brief descriptions of [ABCS GitHub repositori
 
 
 
-### :computer: Imaging AI
+### 💻 Imaging AI
 
 * [RMS-AI](https://github.com/abcsFrederick/RMS_AI){:target="_blank"}
     - GitHub page for Predicting survival of rhabdomyosarcoma patients based on deep-learning of hematoxylin and eosin images manuscript. [PubMed article link.](https://pubmed.ncbi.nlm.nih.gov/36346688/){:target="_blank"}
