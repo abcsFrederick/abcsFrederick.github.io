@@ -62,11 +62,11 @@ The tables below provide links and brief descriptions of [ABCS GitHub repositori
     - Whole Genome-Sequencing Pipeline. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants.
 * [XAVIER](https://github.com/CCBR/XAVIER){:target="_blank"} <img src="./assets/images/test_container_image2.svg" width="12" height="12">
     - eXome Analysis and Variant explorER. Its long-term goals: to accurately call germline and somatic variants, to infer CNVs, and annotate variants.
-* [MOP2](https://github.com/biocorecrg/MOP2){:target="_blank"}
+* [MOP2](https://github.com/NCI-RBL/Dockers/tree/main/workflows/MOP2){:target="_blank"} <img src="./assets/images/test_container_image2.svg" width="12" height="12">
     - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"}
-* [DTEG](https://github.com/SGDDNB/translational_regulation){:target="_blank"}
+* [DTEG](https://github.com/NCI-RBL/Dockers/tree/main/workflows/DTEG){:target="_blank"} <img src="./assets/images/test_container_image2.svg" width="12" height="12">
     - Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
-* [ISOMIR](){:target="_blank"}
+* [ISOMIR](https://github.com/NCI-RBL/Dockers/tree/main/workflows/isomiR){:target="_blank"} <img src="./assets/images/test_container_image2.svg" width="12" height="12">
     - Detection and annotation of microRNA isoforms (isomiRs).
 * [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"}
     - Detection of Ribosomal footprints from NGS data.
