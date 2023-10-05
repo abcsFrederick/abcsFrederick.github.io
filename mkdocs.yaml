@@ -82,9 +82,9 @@ markdown_extensions:
 
 # Page Tree
 nav:
-  - About: docs/index.md
-  - Next-Generation Sequencing: docs/ngs.md
-  - Imaging AI: docs/imaging-ai.md
-  - Statistics: docs/statistics.md
-  - Training: docs/training.md
-  - Other: docs/other.md
+  - About: index.md
+  - Next-Generation Sequencing: ngs.md
+  - Imaging AI: imaging-ai.md
+  - Statistics: statistics.md
+  - Training: training.md
+  - Other: other.md
