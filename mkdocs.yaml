@@ -13,6 +13,28 @@ edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/mai
 # Copyright
 copyright: Copyright &copy; 2023 ABCS
 
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - toc.integrate 
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
 
 # Plugins
 plugins:
@@ -60,4 +82,9 @@ markdown_extensions:
 
 # Page Tree
 nav:
-  - : index.md
+  - About: index.md
+  - Next-Generation Sequencing: ngs.md
+  - Imaging AI: imaging-ai.md
+  - Statistics: statistics.md
+  - Training: training.md
+  - Other: other.md
