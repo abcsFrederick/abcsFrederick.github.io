@@ -8,7 +8,7 @@ site_description: >-
 # Repository
 repo_name: abcsFrederick/abcsFrederick.TEST.github.io
 repo_url: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io
-edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/main/docs/
+edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/master/docs/
 
 # Copyright
 copyright: Copyright &copy; 2023 ABCS
