@@ -8,7 +8,7 @@ site_description: >-
 # Repository
 repo_name: abcsFrederick/abcsFrederick.TEST.github.io
 repo_url: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io
-edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/main/docs/
+edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/master/docs/
 
 # Copyright
 copyright: Copyright &copy; 2023 ABCS
@@ -82,9 +82,9 @@ markdown_extensions:
 
 # Page Tree
 nav:
-  - About: docs/index.md
-  - Next-Generation Sequencing: docs/ngs.md
-  - Imaging AI: docs/imaging-ai.md
-  - Statistics: docs/statistics.md
-  - Training: docs/training.md
-  - Other: docs/other.md
+  - About: index.md
+  - Next-Generation Sequencing: ngs.md
+  - Imaging AI: imaging-ai.md
+  - Statistics: statistics.md
+  - Training: training.md
+  - Other: other.md
