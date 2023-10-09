@@ -6,7 +6,7 @@ The [Advanced Biomedical Computational Science (ABCS)](https://frederick.cancer.
 
 Repository categories: 🧬 [Next-Generation Sequencing](ngs.md), 💻 [Imaging AI](imaging-ai.md), 📊 [Statistics](statistics.md), 🎓 [Training](training.md), or 📚 [Other](other.md). 
 
-For each repository, the name, GitHub link, and a brief description. <img src="./assets/images/test_container_image2.svg" width="12" height="12"> indicates the respective repository is containerized. PubMed links are also provided for any repository published in a manuscript.
+For each repository, the name, GitHub link, and a brief description. <img src="../assets/images/nextflow.jpg" width="35" height="10"> indicates the respective repository is a Nextflow container, and <img src="../assets/images/snakemake.jpg" width="45" height="15"> indicates a Snakemake container. PubMed links are also provided for any repository published in a manuscript.
 
 To view all repositories from ABCS, please visit [ABCS GitHub repositories](https://github.com/abcsFrederick){:target="_blank"}.  
 
