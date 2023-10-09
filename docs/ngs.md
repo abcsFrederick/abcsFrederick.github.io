@@ -38,7 +38,7 @@
     - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/){:target="_blank"}
 * [DTEG](https://github.com/NCI-RBL/Dockers/tree/main/workflows/DTEG){:target="_blank"} <img src="images/nextflow.jpg" width="40" height="12" />
     - Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
-* [ISOMIR](https://github.com/NCI-RBL/Dockers/tree/main/workflows/isomiR){:target="_blank"} <img src="images/nextflow.jpg" width="40" height="12" />
+* [ISOMIR](https://github.com/NCI-RBL/Dockers/tree/main/workflows/isomiR){:target="_blank"} <img src="../docs/images/nextflow.jpg" width="40" height="12" /> <img src="images/nextflow.jpg" width="40" height="12" />
     - Detection and annotation of microRNA isoforms (isomiRs).
 * [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint){:target="_blank"}
     - Detection of Ribosomal footprints from NGS data.
