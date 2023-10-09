@@ -83,7 +83,7 @@ markdown_extensions:
 # Page Tree
 nav:
   - About: index.md
-  - Next-Generation Sequencing: ngs.md
+  - Next-Generation Sequencing: ngs-dir/ngs.md
   - Imaging AI: imaging-ai.md
   - Statistics: statistics.md
   - Training: training.md
