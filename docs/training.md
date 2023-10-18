@@ -1,4 +1,9 @@
-## 🎓 Training
+---
+hide:
+  - navigation
+  - toc
+---
+
 
 * [Linear Regression](https://github.com/abcsFrederick/LinearRegression)
     - Repository for the linear regression materials for Statistics for Lunch.

@@ -1,9 +1,3 @@
----
-hide:
-  - navigation
-  - toc
----
-
 # Project Information
 site_name: ABCS GitHub Repository -- TEST
 site_author: Natasha Pacheco, Ph.D.
@@ -87,9 +81,9 @@ markdown_extensions:
 
 # Page Tree
 nav:
-  - About: index.md
-  - Next-Generation Sequencing: ngs.md
-  - Imaging AI: imaging-ai.md
-  - Statistics: statistics.md
-  - Training: training.md
-  - Other: other.md
+  - About Us: index.md
+  - Next-Generation Sequencing 🧬: ngs.md
+  - Imaging AI 💻: imaging-ai.md
+  - Statistics 📊: statistics.md
+  - Training 🎓: training.md
+  - Other 📚: other.md

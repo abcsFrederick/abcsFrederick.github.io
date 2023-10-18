@@ -1,4 +1,9 @@
-## 💻 Imaging AI
+---
+hide:
+  - navigation
+  - toc
+---
+
 
 * [RMS-AI](https://github.com/abcsFrederick/RMS_AI)
     - GitHub page for Predicting survival of rhabdomyosarcoma patients based on deep-learning of hematoxylin and eosin images manuscript. [PubMed article link.](https://pubmed.ncbi.nlm.nih.gov/36346688/)
