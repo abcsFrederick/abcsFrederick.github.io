@@ -8,7 +8,7 @@ site_description: >-
 # Repository
 repo_name: abcsFrederick/abcsFrederick.TEST.github.io
 repo_url: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io
-edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/master/docs/
+edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2023 ABCS
@@ -19,8 +19,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
-    - navigation.indexes
-    - toc.integrate 
   palette:
     - scheme: default
       primary: indigo
@@ -39,6 +37,7 @@ theme:
 # Plugins
 plugins:
   - search
+  - open-in-new-tab
   - git-revision-date
   - minify:
       minify_html: true
@@ -82,9 +81,9 @@ markdown_extensions:
 
 # Page Tree
 nav:
-  - About: index.md
-  - Next-Generation Sequencing: ngs.md
-  - Imaging AI: imaging-ai.md
-  - Statistics: statistics.md
-  - Training: training.md
-  - Other: other.md
+  - About Us: index.md
+  - Next-Generation Sequencing 🧬: ngs.md
+  - Imaging AI 💻: imaging-ai.md
+  - Statistics 📊: statistics.md
+  - Training 🎓: training.md
+  - Other 📚: other.md
