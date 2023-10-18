@@ -39,6 +39,7 @@ theme:
 # Plugins
 plugins:
   - search
+  - open-in-new-tab
   - git-revision-date
   - minify:
       minify_html: true
