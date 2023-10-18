@@ -1,4 +1,9 @@
-## 📚 Other
+---
+hide:
+  - navigation
+  - toc
+---
+
 
 * [Non-B GFA](https://github.com/abcsFrederick/non-B_gfa)
     - gfa programs for Non-B site at NCI/FNLCR. gfa is a Suite of programs developed at NCI-Frederick/Frederick National Lab to find sequences associated with non-B DNA forming motifs.

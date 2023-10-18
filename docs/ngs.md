@@ -1,4 +1,9 @@
-## 🧬 Next-Generation Sequencing
+---
+hide:
+  - navigation
+  - toc
+---
+
 
 * [ASCENT](https://github.com/CCBR/ASCENT)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - ASE (alternate splicing events) are identified and quantified using the ASCENT (**A**lternate **S**pli**C**ing **E**veNt **T**ools) pipeline. This workflow can be used for multi-group multi-contrasts scenarios.

@@ -19,8 +19,6 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
-    - navigation.indexes
-    - toc.integrate
   palette:
     - scheme: default
       primary: indigo
@@ -83,9 +81,9 @@ markdown_extensions:
 
 # Page Tree
 nav:
-  - About: index.md
-  - Next-Generation Sequencing: ngs.md
-  - Imaging AI: imaging-ai.md
-  - Statistics: statistics.md
-  - Training: training.md
-  - Other: other.md
+  - About Us: index.md
+  - Next-Generation Sequencing 🧬: ngs.md
+  - Imaging AI 💻: imaging-ai.md
+  - Statistics 📊: statistics.md
+  - Training 🎓: training.md
+  - Other 📚: other.md
