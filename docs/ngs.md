@@ -33,8 +33,8 @@ hide:
     - List-to-pathway, or l2p, is an R package for gene set enrichment analysis that is optimized for speed.
 * [METRO](https://github.com/abcsFrederick/METRO)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - **M**ouse n**E**oan**T**igen p**R**edict**O**r is a pipeline to characterize the effect of a mutation on an amino acid sequences and to predict the binding of peptides to any MHC molecule using netMHCpan.
-* [MicroArrayPipeline](https://github.com/abcsFrederick/MicroArrayPipeline)
-    - MicroArray Analysis Pipeline, also known as MAAPster, is a comprehensive Shiny application and R package that performs transcriptome analysis of human or mouse Affymetrix gene expression data.
+* [MAAPster](https://github.com/abcsFrederick/MAAPster)
+    - MAAPster, also known as MicroArray Analysis Pipeline, is a comprehensive Shiny application and R package that performs transcriptome analysis of human or mouse Affymetrix gene expression data.
 * [MOP2](https://github.com/NCI-RBL/Dockers/tree/main/workflows/MOP2)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/)
 * [RENEE](https://github.com/abcsFrederick/RENEE)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
