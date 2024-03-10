@@ -21,5 +21,3 @@ hide:
     - Barebones framework for creating new nextflow workflows on BIOWULF
 * [rNA](https://github.com/CCBR/rNA)
     - R tool to generate comprehensive and interactive QC report for RENEE output.
-* [PIM](https://github.com/CCBR/PIM)
-    - PIM or Pipeliner Index Maker generated all the required "index" files for new or custom genomes which are required prior to running CCBR pipeliner.
