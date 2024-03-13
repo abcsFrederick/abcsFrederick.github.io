@@ -4,8 +4,8 @@ Repository categories: [Next-Generation Sequencing](ngs.md) 🧬, [Imaging AI](i
 
 For each repository, the name, GitHub link, and a brief description is provided. PubMed links are also provided for any repository published in a manuscript. 
 
-![nextflow](docs/images/nextflow-small.svg) : indicates the repository is a Nextflow container.
+![nextflow](docs/images/nextflow-small.svg) : indicates the repository is a Nextflow workflow.
 
-![snakemake](docs/images/snakemake-small.svg) : indicates the repository is a Snakemake container. 
+![snakemake](docs/images/snakemake-small.svg) : indicates the repository is a Snakemake workflow. 
 
 To view all repositories from ABCS, please visit [ABCS GitHub repositories](https://github.com/abcsFrederick).
