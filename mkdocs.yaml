@@ -31,7 +31,7 @@ theme:
   palette:
     - scheme: fnldark
       toggle:
-        icon: material/toggle-switch-off
+        icon: material/toggle-switch
         name: Switch to light mode
     - scheme: fnl
       toggle:
