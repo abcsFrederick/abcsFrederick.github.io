@@ -19,7 +19,9 @@
     .md-typeset h3 {
         color: #000000;
     }
-    .md-tabs__link--active {
+    .md-tabs__link--active,
+    .md-tabs__link:hover,
+    .md-tabs__link:focus {
         color: #296B7F;
     }
     .logo-dark { 
@@ -43,7 +45,9 @@
     .md-typeset h3 {
         color: #FFFFFF;
     }
-    .md-tabs__link--active {
+    .md-tabs__link--active,
+    .md-tabs__link:hover,
+    .md-tabs__link:focus {
         color: #7CC349;
     }
 
