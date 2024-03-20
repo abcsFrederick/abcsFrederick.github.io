@@ -1,5 +1,5 @@
 # Project Information
-site_name: ABCS GitHub Repository -- TEST
+site_name: ADVANCED BIOMEDICAL COMPUTATIONAL SCIENCE
 site_author: Natasha Pacheco, Ph.D.
 site_description: >-
   This is a test repo to test out different layout and information options.
@@ -7,31 +7,36 @@ site_description: >-
 
 # Repository
 repo_name: abcsFrederick/abcsFrederick.TEST.github.io
-repo_url: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io
+#repo_url: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io
 edit_uri: https://github.com/abcsFrederick/abcsFrederick.TEST.github.io/edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2023 ABCS
 
 # Configuration
+extra_css: 
+  - stylesheets/extra.css
 theme:
   name: material
+  custom_dir: docs/custom-overrides
   features:
+    - header.autohide
     - navigation.tabs
     - navigation.top
+    - navigation.tracking
+  font:
+    text: Roboto
+  logo: images/fnl-logo-light.png
+  logo_dark: images/fnl-logo-dark.png
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      primary: red
-      accent: red
+    - scheme: fnldark
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+    - scheme: fnl
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
 
 
 # Plugins
