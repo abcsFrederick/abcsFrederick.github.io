@@ -55,11 +55,19 @@
         display: none;
       }
 }
+
+/* 
+https://github.com/squidfunk/mkdocs-material/blob/master/src/templates/assets/stylesheets/main/components/_header.scss 
+*/
 .md-header {
     height: 100px;
+    text-align: center;
+    align-items: center;
 }
 .md-header__title {
     font-size: 26px;
+    text-align: center;
+    align-items: center;
 }
 .logo-dark {
     padding: px2rem(12px);
@@ -75,7 +83,7 @@
 .logo-light {
     padding: px2rem(12px);
     margin: px2rem(8px);
-    vertical-align: middle;
+
     :is(img, svg) {
       display: block;
       width: auto;
