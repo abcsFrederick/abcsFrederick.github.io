@@ -41,6 +41,18 @@ hide:
     - **R**na s**E**quencing a**N**alysis pip**E**lin**E** or RENEE is an open-source, reproducible, and scalable solution for analyzing RNA-seq data. The pipeline consists of a series of data processing and quality-control steps orchestrated by Snakemake, a flexible and scalable workflow management system, to submit jobs to a cluster or cloud provider.
 * [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint) 
     - Detection of Ribosomal footprints from NGS data.
+* [SF_ATAC-seq](https://github.com/abcsFrederick/SF_ATAC-seq)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - The ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) pipeline typically follows several steps to analyze paired-end sequencing data and identify regions of open chromatin (peaks).
+* [SF_biocontainer](https://github.com/abcsFrederick/SF_biocontainer)
+    - SF_biocontainer is a github repo with the Docker file used to build containers for CCRSF pipelines.
+* [SF_Fastq-QC](https://github.com/abcsFrederick/SF_Fastq-QC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Sequencing Facility Fastq-QC pipeline: No pipe - an abbreviated pipeline that will run Fastqc, Fastq screen and generate MultiQC report.
+* [SF_LR_Transcriptome](https://github.com/abcsFrederick/SF_LR_Transcriptome)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Long read transcriptome pipeline for Pacbio and ONT.
+* [SF_LR_VAP](https://github.com/abcsFrederick/SF_LR_VAP)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - The SF Long Read Variant Analysis Pipeline (SF_LR_VAP) is a bioinformatics workflow tailored for the comprehensive analysis of long-read sequencing data.
+* [SF_Polylox-BC](https://github.com/abcsFrederick/SF_Polylox-BC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - This repository contains workflows/scripts for processing Pacbio reads integrated with cell barcodes to Polylox barcodes, generating comprehensive reports and visualizations for Polylox barcode analysis.
 * [SINCLAIR](https://github.com/abcsFrederick/SINCLAIR)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     -  **SIN**gle **C**el**L** **A**nalys**I**s **R**esource or SINCLAIR is developed by the CCR Collaborative Bioinformatics Resource as an open-source, reproducible solution for multiple single cell next-generation modalities.
 * [TRANQUIL](https://github.com/abcsFrederick/TRANQUIL)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
