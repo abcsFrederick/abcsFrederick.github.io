@@ -37,7 +37,7 @@ hide:
     - **M**ouse n**E**oan**T**igen p**R**edict**O**r is a pipeline to characterize the effect of a mutation on an amino acid sequences and to predict the binding of peptides to any MHC molecule using netMHCpan.
 * [MAAPster](https://github.com/abcsFrederick/MAAPster)
     - MAAPster, also known as MicroArray Analysis Pipeline, is a comprehensive Shiny application and R package that performs transcriptome analysis of human or mouse Affymetrix gene expression data.
-* [MNaseSeq](https://github.com/abcsFrederick/MAPLE)
+* [MAPLE](https://github.com/abcsFrederick/MAPLE)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - MNase-seq Analysis PipeLinE (MAPLE): multi-sample DYAD fragment identification and quantification.
 * [MOP2](https://github.com/NCI-RBL/Dockers/tree/main/workflows/MOP2)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/)
