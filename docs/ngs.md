@@ -29,12 +29,16 @@ hide:
     - Human Endogenous Retrovirus expression pipeline, as known as HERVx, is a containerized pipeline to characterize retrotranscriptome. HERVx calculates Human Endogenous Retrovirus (HERV) expression in paired-end RNA-sequencing data.
 * [ISOMIR](https://github.com/NCI-RBL/Dockers/tree/main/workflows/isomiR)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - Detection and annotation of microRNA isoforms (isomiRs).
+* [iCLIP](https://github.com/abcsFrederick/iCLIP_V3)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
+    - Individual-nucleotide resolution Cross-Linking and ImmunoPrecipitation (iCLIP); multi-sample peak identification and annotation analysis; differential analysis using DIFFBIND and MANORM.
 * [l2p](https://github.com/abcsFrederick/l2p)
     - List-to-pathway, or l2p, is an R package for gene set enrichment analysis that is optimized for speed.
 * [METRO](https://github.com/abcsFrederick/METRO)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - **M**ouse n**E**oan**T**igen p**R**edict**O**r is a pipeline to characterize the effect of a mutation on an amino acid sequences and to predict the binding of peptides to any MHC molecule using netMHCpan.
 * [MAAPster](https://github.com/abcsFrederick/MAAPster)
     - MAAPster, also known as MicroArray Analysis Pipeline, is a comprehensive Shiny application and R package that performs transcriptome analysis of human or mouse Affymetrix gene expression data.
+* [MAPLE](https://github.com/abcsFrederick/MAPLE)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - MNase-seq Analysis PipeLinE (MAPLE): multi-sample DYAD fragment identification and quantification.
 * [MOP2](https://github.com/NCI-RBL/Dockers/tree/main/workflows/MOP2)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/)
 * [RENEE](https://github.com/abcsFrederick/RENEE)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
@@ -47,10 +51,16 @@ hide:
     - SF_biocontainer is a github repo with the Docker file used to build containers for CCRSF pipelines.
 * [SF_Fastq-QC](https://github.com/abcsFrederick/SF_Fastq-QC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - Sequencing Facility Fastq-QC pipeline: No pipe - an abbreviated pipeline that will run Fastqc, Fastq screen and generate MultiQC report.
+* [SF_LR_SOMATIC](https://github.com/abcsFrederick/SF_LR_SOMATIC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - This pipeline processes long-read (LR) sequencing data to identify somatic mutations including single nucleotide variants (SNVs), structural variants (SVs), and copy number alterations (CNAs) using various bioinformatics tools.
 * [SF_LR_Transcriptome](https://github.com/abcsFrederick/SF_LR_Transcriptome)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - Long read transcriptome pipeline for Pacbio and ONT.
 * [SF_LR_VAP](https://github.com/abcsFrederick/SF_LR_VAP)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - The SF Long Read Variant Analysis Pipeline (SF_LR_VAP) is a bioinformatics workflow tailored for the comprehensive analysis of long-read sequencing data.
+* [SF_MAS-SC](https://github.com/abcsFrederick/SF_MAS-SC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - In the SF Multiplexed Arrays Sequencing (SF_MAS-SC) workflow, full-length cDNA sequences are processed and classified against a reference annotation database. This workflow identifies novel genes and isoforms, and outputs count matrices at both the gene and isoform levels.
+* [SF_miRNA](https://github.com/abcsFrederick/SF_miRNA)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - This repository contains workflows/scripts for processing small RNA sequencing data. The pipeline includes steps for mapping reads to the reference genome and the miRNA database and estimating the abundance of miRNAs.
 * [SF_Polylox-BC](https://github.com/abcsFrederick/SF_Polylox-BC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - This repository contains workflows/scripts for processing Pacbio reads integrated with cell barcodes to Polylox barcodes, generating comprehensive reports and visualizations for Polylox barcode analysis.
 * [SINCLAIR](https://github.com/abcsFrederick/SINCLAIR)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
