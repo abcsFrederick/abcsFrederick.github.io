@@ -11,3 +11,5 @@ hide:
     - SlideSeg3 is an enhanced python3 version of the original SlideSeg.
 * [Quick2Insight](https://github.com/abcsFrederick/Quick2Insight)
     - A framework to visualize details in volumetric datasets quickly. [Published in BioVis 2011.](https://ieeexplore.ieee.org/document/6094041)
+* [ABCS-pydicom-split](https://github.com/abcsFrederick/ABCS-pydicom-split)
+    - A pipeline to split the DICOM into a specified number of volumes. [PubMed article link.](https://pubmed.ncbi.nlm.nih.gov/33681459/)
