@@ -22,8 +22,8 @@ jobs:
       - name: List repos
         id: repolist
         run: |
-            echo "REPOS_DOCS=$(grep -r github.com/abcsFrederick/ docs/* | sed 's|.*github\.com/\(abcsFrederick/[a-zA-Z0-9_\-]*\).*|\1|g' | sort)" >> "$GITHUB_OUTPUT"
-            echo "REPOS_GITHUB=$(gh repo list abcsFrederick -L 999 | cut -f 1 | sort)" >> "$GITHUB_OUTPUT"
+            echo "$(grep -r github.com/abcsFrederick/ docs/* | sed 's|.*github\.com/\(abcsFrederick/[a-zA-Z0-9_\-]*\).*|\1|g' | sort)" > docs-repos.txt
+            echo "$(gh repo list abcsFrederick -L 999 | cut -f 1 | sort)" > gh-repos.txt
       
       - name: Compare lists
         id: compare
@@ -32,10 +32,12 @@ jobs:
             from ccbr_actions.actions import set_output
             exit_code = 0
 
-            repo_docs = $[[ steps.repolist.outputs.REPOS_DOCS.split('\n') ]]
-            repo_github = $[[ steps.repolist.outputs.REPOS_GITHUB.split('\n') ]]
-            missing_in_docs = set(repo_docs) - set(repo_github)
-            missing_in_github = set(repo_github) - set(repo_docs)
+            with open('docs-repos.txt', 'r') as f:
+                repos_docs = f.read().strip().split('\n')
+            with open('gh-repos.txt', 'r') as f:
+                repos_github = f.read().strip().split('\n')
+            missing_in_docs = set(repos_docs) - set(repos_github)
+            missing_in_github = set(repos_github) - set(repos_docs)
 
             if missing_in_docs or missing_in_github: 
                 exit_code = 1
