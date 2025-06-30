@@ -1,0 +1,60 @@
+name: repo-list
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "11 13 27 * *"
+
+jobs:
+  list-repos:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write # required for peter-evans/create-issue-from-file
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+            cache: "pip"
+
+      - name: List repos
+        id: repolist
+        run: |
+            echo "REPOS_DOCS=$(grep -r github.com/abcsFrederick/ docs/* | sed 's|.*github\.com/\(abcsFrederick/[a-zA-Z0-9_\-]*\).*|\1|g' | sort)" >> "$GITHUB_OUTPUT"
+            echo "REPOS_GITHUB=$(gh repo list abcsFrederick -L 999 | cut -f 1 | sort)" >> "$GITHUB_OUTPUT"
+      
+      - name: Compare lists
+        id: compare
+        shell: python {0}
+        run: |
+            from ccbr_actions.actions import set_output
+            exit_code = 0
+
+            repo_docs = $[[ steps.repolist.outputs.REPOS_DOCS.split('\n') ]]
+            repo_github = $[[ steps.repolist.outputs.REPOS_GITHUB.split('\n') ]]
+            missing_in_docs = set(repo_docs) - set(repo_github)
+            missing_in_github = set(repo_github) - set(repo_docs)
+
+            if missing_in_docs or missing_in_github: 
+                exit_code = 1
+                with open('compare-lists.md', 'w') as f:
+                    if missing_in_docs:
+                        f.write('# Repositories in docs but not in GitHub:\n')
+                        if missing_in_docs:
+                            f.write('\n'.join(f'- {repo}' for repo in sorted(missing_in_docs)) + '\n')
+                    if missing_in_github:
+                        f.write('\n# Repositories in GitHub but not in docs:\n')
+                        if missing_in_github:
+                            f.write('\n'.join(f'- {repo}' for repo in sorted(missing_in_github)) + '\n')
+
+            set_output('exit_code', exit_code)
+            if exit_code == 0:
+                print('No discrepancies found between docs and GitHub repos.')
+
+      - name: Create Issue From File
+        if: steps.compare.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Repository List Report
+          content-filepath: ./compare-lists.md
+          labels: automated issue
