@@ -1,4 +1,4 @@
-name: links
+name: repo-list
 
 on:
   repository_dispatch:
@@ -7,7 +7,7 @@ on:
     - cron: "11 13 27 * *"
 
 jobs:
-  linkChecker:
+  list-repos:
     runs-on: ubuntu-latest
     permissions:
       issues: write # required for peter-evans/create-issue-from-file
