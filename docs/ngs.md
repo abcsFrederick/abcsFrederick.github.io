@@ -7,7 +7,7 @@ hide:
 
 * [ASCENT](https://github.com/abcsFrederick/ASCENT)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - ASE (alternate splicing events) are identified and quantified using the ASCENT (**A**lternate **S**pli**C**ing **E**veNt **T**ools) pipeline. This workflow can be used for multi-group multi-contrasts scenarios.
-* [ASPEN](https://github.com/abcsFrederick/ASAP)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+* [ASPEN](https://github.com/abcsFrederick/ASPEN)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - ASPEN or **A**tac **S**eq **P**ip**E**li**N**e is CCBR's pipeline to calls peaks for ATAC-Seq datasets. It currently accepts paired-end Illumina data and calls peak using MACS2 and Genrich peak callers.
 * [CARLISLE](https://github.com/abcsFrederick/CARLISLE) ![snakemake](images/snakemake-small.svg)
     - **C**ut **A**nd **R**un ana**L**ys**IS** pipeLin**E** calls peaks using MACS2, SEACR and GoPeaks on spike-in normalized input fastqs.
