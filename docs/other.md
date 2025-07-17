@@ -11,8 +11,6 @@ hide:
     - Spacesavers2 has a suite of tools to quickly crawl through a file system to identify duplicates, assess per-user or per-project disk usage and monitor disk allocation with a monthly report
 * [Dockers](https://github.com/abcsFrederick/Dockers)
     - A large collection of 100+ CCBRs Docker recipes.
-* [permfix](https://github.com/abcsFrederick/permfix)
-    - A python toolkit to automatically fix user permissions on shared file systems. This can easily be setup as a cronjob.
 * [pyrkit](https://github.com/abcsFrederick/pyrkit)
     - A tool to archive and co-locate NGS data with project-level, sample-level, and analysis-specific metadata prior to depositing in HPCDME.
 * [CCBR_SnakemakeTemplate](https://github.com/abcsFrederick/CCBR_SnakemakeTemplate)
