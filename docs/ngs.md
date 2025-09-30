@@ -17,12 +17,14 @@ hide:
     - **CH**rom**A**tin i**M**muno **P**recipit**A**tion sequencin**G** a**N**alysis pip**E**line calls ChIPseq peaks using MACS2, GEM, and SICER followed by motif enrichment and other downstream analysis.
 * [CHARLIE](https://github.com/abcsFrederick/CHARLIE)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - **C**ircrnas in **H**ost **A**nd vi**R**uses ana**L**ysis p**I**p**E**line detects, annotates and quantifies circRNAs in host + virus references using CIRCExplorer2, CIRI2 and many other tools in parallel.
-* [CRUISE](https://github.com/abcsFrederick/CRUISE)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
+* [CRISPIN](https://github.com/abcsFrederick/CRISPIN)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - **C**rispr sc**R**een seq**U**encIng analy**S**is pip**E**line can be used for whole genome CRISPR KO analysis with MaGeck, Bagel and drugZ.
 * [DNAnexus](https://github.com/abcsFrederick/DNAnexus)
     - This repository provides access to a set of pipelines developed by CCBR members to analyze NGS data on DNAnexus. They allow a user to process raw data starting from FastQ files to reach common endpoints for downstream analysis such as a list of annotated mutations, a set of annotated peaks, or a raw counts matrix for differential expression analysis.
 * [DTEG](https://github.com/NCI-RBL/Dockers/tree/main/workflows/DTEG)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - Integration of RNA-seq and Ribo-seq to calculate translation efficiency as the number of ribosomes per gene, normalized to transcript abundance.
+* [fruitsc](https://github.com/abcsFrederick/fruitsc)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - fruitsc is a snakemake pipeline developed for genome wide HiC data analysis. The main steps include trimming low quality reads,QC analysis,  generating Hi-C contact maps using Juicer Hi-C tool,  identifying TAD using Arrowhead. It has been developed for using in the NIH's Biowulf HPC Cluster and is currently in development mode.
 * [HapFerret](https://github.com/abcsFrederick/HapFerret)
     - HapFerret is an Expectation-Maximization (EM) implementation that is characterized by flexibility and ease of use, notable its use of a natural format for input genotypes and output haplotypes.
 * [HERVx](https://github.com/abcsFrederick/HERVx)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
@@ -41,16 +43,30 @@ hide:
     - MNase-seq Analysis PipeLinE (MAPLE): multi-sample DYAD fragment identification and quantification.
 * [MOP2](https://github.com/NCI-RBL/Dockers/tree/main/workflows/MOP2)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
     - Estimation of the length of mRNA poly-A tail from Nanopore reads using Tailfindr and Nanopolish [PubMed article link](https://pubmed.ncbi.nlm.nih.gov/36723817/)
+* [NGS_Preprocessing_Pipeline](https://github.com/abcsFrederick/NGS_Preprocessing_Pipeline)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Snakemake pipeline for preprocessing of NGS Illumina short read data including RNA-seq, Whole genome sequencing and exome sequencing data.
+* [NGS_SV_CNV_Pipelines](https://github.com/abcsFrederick/NGS_SV_CNV_Pipelines)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Snakemake pipeline for Structural Variants (SVs) and Copy Numbers Variation (CNVs) detections, annotation and visualization. The software package includes two workflows, one workflow is for handling Illumina short-read data and the other one is for analyzing long-read sequencing data from PacBio and Oxford Nanopore platforms.
+* [Oncogenomics_NF_WF](https://github.com/abcsFrederick/Oncogenomics_NF_WF)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
+    - The Oncogenomics_NF_WF is a containerized Nextflow pipeline for processing exome and RNA-seq cancer data. It is built for scalable execution on HPC (Biowulf) and AWS. It integrates tools for variant calling, CNV detection, mutational signatures, TMB, HLA typing, neoantigen prediction, RNA quantification, fusion detection, and immune infiltration metrics.
+* [POB_snMultiome_pipeline](https://github.com/abcsFrederick/POB_snMultiome_pipeline)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Snakemake pipeline to analyze single nucleotide data with gene-expression and chromatin accessibility datasets concurrently.
 * [RENEE](https://github.com/abcsFrederick/RENEE)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - **R**na s**E**quencing a**N**alysis pip**E**lin**E** or RENEE is an open-source, reproducible, and scalable solution for analyzing RNA-seq data. The pipeline consists of a series of data processing and quality-control steps orchestrated by Snakemake, a flexible and scalable workflow management system, to submit jobs to a cluster or cloud provider.
 * [RiboFootPrint](https://github.com/NCI-RBL/Dockers/tree/main/workflows/RiboFootPrint) 
     - Detection of Ribosomal footprints from NGS data.
+* [scRNA_pipeline](https://github.com/abcsFrederick/scRNA_pipeline)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Snakemake pipeline for Single Cell RNA-seq analysis. The integrated Single Cell Analysis Pipeline (iSCAP) enables combining different methods including quality control, preprocessing, normalization, batch effect correction, clustering, marker gene and subpopulation identification, cell type annotation, multi-sample differential expression analysis.
 * [SF_ATAC-seq](https://github.com/abcsFrederick/SF_ATAC-seq)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - The ATAC-seq (Assay for Transposase-Accessible Chromatin using sequencing) pipeline typically follows several steps to analyze paired-end sequencing data and identify regions of open chromatin (peaks).
 * [SF_biocontainer](https://github.com/abcsFrederick/SF_biocontainer)
     - SF_biocontainer is a github repo with the Docker file used to build containers for CCRSF pipelines.
+* [SF_Downstream_RNA-seq](https://github.com/abcsFrederick/SF_Downstream_RNA-seq)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
+    - Snakemake pipeline intakes raw counts file and run differential gene expression analysis using three different tools (Deseq2, EdgeR, and Limma_Voom) and perform Gene Set Enrichment Analysis using Deseq2 output.
 * [SF_Fastq-QC](https://github.com/abcsFrederick/SF_Fastq-QC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - Sequencing Facility Fastq-QC pipeline: No pipe - an abbreviated pipeline that will run Fastqc, Fastq screen and generate MultiQC report.
+* [SF_LR_scRNA](https://github.com/abcsFrederick/SF_LR_scRNA)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)&nbsp;&nbsp;&nbsp;&nbsp;![nextflow](images/nextflow-small.svg)
+    - Snakemake workflow designed for the analysis of single-cell sequencing data from Oxford Nanopore Technologies (ONT). It integrates data processing using ONT's wf-single-cell Nextflow pipeline, downstream analysis with standard R packages for single-cell analysis, and utilizes SQANTI3 for detailed isoform classification.
 * [SF_LR_SOMATIC](https://github.com/abcsFrederick/SF_LR_SOMATIC)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
     - This pipeline processes long-read (LR) sequencing data to identify somatic mutations including single nucleotide variants (SNVs), structural variants (SVs), and copy number alterations (CNAs) using various bioinformatics tools.
 * [SF_LR_Transcriptome](https://github.com/abcsFrederick/SF_LR_Transcriptome)&nbsp;&nbsp;&nbsp;&nbsp;![snakemake](images/snakemake-small.svg)
